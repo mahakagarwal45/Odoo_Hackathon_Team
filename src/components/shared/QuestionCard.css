@@ -1,0 +1,33 @@
+.question-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.question-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.question-card p {
+  color: #555;
+}
+
+.tags {
+  margin: 10px 0;
+}
+
+.tag {
+  background-color: #ffe1c4;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 5px;
+  display: inline-block;
+}

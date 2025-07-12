@@ -1,0 +1,19 @@
+.go-to-question-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.go-to-question-button {
+  background-color: #7b5cff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.go-to-question-button:hover {
+  background-color: #6849d1;
+}
