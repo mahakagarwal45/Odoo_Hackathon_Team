@@ -1,0 +1,53 @@
+.ask-container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.ask-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.ask-header h1 {
+  font-size: 28px;
+}
+
+.ask-header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ask-form {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ask-form label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.ask-form input,
+.ask-form textarea {
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.ask-form button {
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

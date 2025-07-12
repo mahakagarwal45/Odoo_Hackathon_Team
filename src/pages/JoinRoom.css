@@ -1,0 +1,67 @@
+/* src/pages/JoinRoom.css */
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.mockup {
+  width: 80%;         /* Shrink width to 80% of container */
+  max-width: 300px;   /* Or whatever max width you want */
+  height: auto;       /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  background-color: #ffe6cc;
+  border-radius: 20px;
+}
+
+.input-box {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.join-button {
+  padding: 12px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.note {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+a {
+  color: #6c63ff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #ffe1c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 2px solid #ccc;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-button {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
